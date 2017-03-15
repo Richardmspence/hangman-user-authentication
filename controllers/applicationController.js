@@ -5,14 +5,14 @@ var mysql = require('mysql')
 
 var connection = mysql.createConnection({
   host: "localhost",
-  port: 3306,
+  port: 8889,
 
   // Your username
   user: "root",
 
   // Your password
-  password: "",
-  database: "groupon_db"
+  password: "root",
+  database: "hangmangov"
 });
 
 //this is the users_controller.js file
